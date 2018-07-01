@@ -1,0 +1,212 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+@charset "utf-8";
+
+html, body {margin:0; padding:0; height:100%;}
+
+*,*:after, *:before{
+    margin:0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 58px;
+	text-align:center;
+	line-height:420px;
+}
+
+h2
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 57px;
+	text-align:center;
+	margin-top: -40px;
+}
+
+h3
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 17px;
+	text-align: left;
+	line-height: 30px;
+}
+
+#home {
+	background-color: #743fab;
+	min-height: 1030px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin-top: -70px;*/
+}
+#seccion2 {
+	background-color: #5e2697;
+	min-height: 1030px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#section3{
+	background-color: #431b6c;
+	min-height: 1030px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#section4{
+	background-color: #5e2697;
+	min-height: 1030px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+article{
+	padding: 100px;
+}
+.espacio{
+	margin-top: 130px;
+}
+.espacio2{
+	margin-top: 20px;
+}
+.btn12{
+	background-color: #552288;
+	font-weight:bold;
+	width: 270px;
+    height: 70px;
+}
+.btn12:hover {
+    background-color: #5e2697;
+    border-color: #fff;
+}
+.p1{
+	font-size: 100px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+.test-body-block{background-color: #fff;
+                border-radius: 0 0 0px 0px;
+}
+.test-comp{height: 90px;
+			color: #b2b6c1;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 17px;
+	text-align: center;
+	line-height: 90px;
+}
+.espacioarriba{
+	margin-top: -180px;
+}
+.espacioabajo{
+	margin-top: -145px;
+}
+.bno{
+	color: #fff;
+}
+body {
+  padding-top: initial;
+  padding-bottom: 2rem;
+  color: #5a5a5a;
+}
+.carousel {
+  margin-bottom: 4rem;
+}
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 700px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.centro{
+	text-align: center;
+
+}
