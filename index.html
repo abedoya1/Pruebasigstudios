@@ -13,7 +13,9 @@
 </head>
 
 <body>
-	
+	<div id="contenedor_carga">
+	 	<div id="carga"></div>
+	</div>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-justified">
       	<div class="container">
@@ -226,7 +228,12 @@
       });
 </script>
 
-
+<script>
+	window.onload = function(){
+		var contenedor = document.getElementById('contenedor_carga');
+		contenedor.style.visibility = 'hidden';
+		contenedor.style.opacity = '0';}
+</script>
 <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
