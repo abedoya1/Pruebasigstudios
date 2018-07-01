@@ -23,19 +23,19 @@
 	        <div class="container-fluid collapse navbar-collapse" id="navbarResponsive">
 	          	<ul class="navbar-nav ml-auto">
 		            <li class="nav-item active">
-		              <a class="nav-link" aria-pressed="true"><p>Page 1</p></a>
+		              <a data-scroll href="#home" class="nav-link" aria-pressed="true"><p>Page 1</p></a>
 		            </li>
 		            <li class="nav-item">
-		              <a class="nav-link"><p>Page 2</p></a>
+		              <a data-scroll href="#seccion2" class="nav-link"><p>Page 2</p></a>
 		            </li>
 		            <li class="nav-item">
-		              <a class="nav-link"><p>Page 3</p></a>
+		              <a data-scroll href="#section3" class="nav-link"><p>Page 3</p></a>
 		            </li>
 		            <li class="nav-item">
-		            	<a class="nav-link"><button type="button" class="btn btn-light">Top</button></a>
+		            	<a data-scroll href="#section4" class="nav-link"><button type="button" class="btn btn-light">Top</button></a>
 		            </li>
 		            <li class="nav-item">
-		            	<a class="nav-link"><button type="button" class="btn btn-outline-dark bno">Bottom</button></a>
+		            	<a data-scroll href="" class="nav-link"><button type="button" class="btn btn-outline-dark bno">Bottom</button></a>
 		            </li>
 		            </li>
 	          	</ul>
@@ -211,6 +211,19 @@
 		</div>
 	</article>
 </section>
+
+
+<script src="js/smooth-scroll.min.js"></script>
+<script>
+      smoothScroll.init({
+      selector: '[data-scroll]',
+      selectorHeader: null,
+      speed: 2000,
+      easing: 'easeInOutCubic',
+      offset: 0,
+      callback: function ( anchor, toggle ) {}
+      });
+</script>
 
 
 <script type="text/javascript" src="js/jquery-3.2.1.slim.min.js"></script>
